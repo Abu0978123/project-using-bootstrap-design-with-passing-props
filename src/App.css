@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.margin {
+  margin-left: auto;
+}
+
+nav {
+  background: white;
+  font-family: "Mulish";
+}
+
+.row {
+  font-family: "Mulish";
+}
+.row h4 {
+  font-family: "Roboto";
+}
+.row .brand-name {
+  color: blue;
+}
+.row .header-img > img {
+  padding-top: 20px;
+  width: 100%;
+  height: 90%;
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+#header {
+  width: 100%;
+}
+
+.header-img {
+  text-align: right;
+}
+
+.col-md-12 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+}
+
+.card {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+.card .color-red {
+  color: red;
+}
+
+.services {
+  overflow: hidden;
+}/*# sourceMappingURL=App.css.map */

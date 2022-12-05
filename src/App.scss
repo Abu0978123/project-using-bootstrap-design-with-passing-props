@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow-x:hidden;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+// .navbar{
+//   height: 100px;
+//   background: #000;
+//   color: white;
+// }
+.justify{
+ justify-content: space-between;
+}
+.margin{
+  margin-left: auto;
+}
+nav{
+  background: white;
+  font-family: 'Mulish';
+ 
+}
+// this css is using to home page 
+.row{
+  font-family: 'Mulish';
+  h4{
+    font-family: 'Roboto'; 
+  }
+  .brand-name{
+    color: blue;
+  }
+  .header-img >img{
+    padding-top: 20px;
+     width: 100%;
+     height: 90%;
+    animation: up-down 2s ease-in-out  infinite alternate-reverse both;
+    @keyframes up-down {
+      0%   {transform:translateY(10px);}
+      100% {transform:translateY(-10px);}
+    }
+    @-webkit-keyframes up-down {
+      0%   {transform:translateY(10px);}
+      100% {transform:translateY(-10px);}
+    }
+    //  border-radius: 20px;
+    // padding-right: 40px;
+  }
+}
+#header{
+  width: 100%;
+  
+  
+}
+.header-img{
+  text-align: right;
+  
+}
+
+.col-md-12{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  // justify-content: space-between;
+}
+.card{
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  .color-red{
+    color: red;
+  }
+}
+.services{
+  overflow:hidden;
+}
+
